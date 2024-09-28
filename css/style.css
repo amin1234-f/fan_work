@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+max-width: 1110px;
+margin: 0 auto;
+}
+.header{
+    background: rgb(0, 0, 0);
+}
+
+.container_header{
+    display: flex;
+   justify-content: space-between;
+   align-items:center;
+   padding: 22px 0; 
+}
+
+.nav__list{
+    display: flex; 
+    list-style: none;
+}
+
+.header__img{
+    margin-right: 15px; ;
+}
+
+.nav__item{
+    color: beige;
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 63px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav__item:hover{
+    color: rgb(0, 196, 240);
+}
+
+.header__logo{
+    display: flex;
+    align-items:center;
+}
+
+.header__title{
+    color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.hero__blok {
+    background: rgb(44, 44, 44);
+}
+
+.container__hero-blok {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.hero-blok__content {
+    max-width: 453px;
+}
+
+.hero-blok__title{
+    color: rgb(228, 228, 228);
+font-family: Overpass Mono;
+font-size: 72px;
+font-weight: 300;
+line-height: 91px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 30px;
+}
+
+.hero-blok__text{
+    color: rgb(228, 228, 228);
+font-family: Overpass Mono;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 44px;
+}
+.hero-blok__img{
+max-width: 600px;
+}
+
+.hero-blok__link{
+    border-radius: 6px;
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+background: linear-gradient(116.57deg, rgb(246, 181, 10) 0%,rgb(226, 149, 0) 98.923%);
+padding: 14px 44px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-family: Nico Moji;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.about{
+    background: rgb(62, 62, 62);
+}
+
+.container__about{
+    padding: 70px 0 130px;
+}
+
+.about__title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 97px;
+text-align: center;
+}
+
+.about__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__list{
+    list-style: none;
+}
+
+.about__item{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+padding: 58px;
+}
+
+.about__TDM__out{
+    height: 18px;
+    background: rgb(0, 196, 240);
+    width: 356px;
+}
+
+.about__TDM__in{
+    height: 100%;
+    background: rgb(7, 19, 182);  
+    width: 85%;
+}
+
+.about__Klassic__out{
+    height: 18px;
+    background: rgb(0, 196, 240);
+    width: 356px;
+}
+
+.about__Klassic__in{
+    height: 100%;
+    background: rgb(7, 19, 182);  
+    width: 90%;  
+}
+
+.about__zagim__out{
+    height: 18px;
+    background: rgb(0, 196, 240);
+    width: 356px;
+}
+
+.about__zagim__in{
+    height: 100%;
+    background: rgb(7, 19, 182);  
+    width: 70%; 
+}
+
+.about__kloys-fait__out{
+    height: 18px;
+    background: rgb(0, 196, 240);
+    width: 356px; 
+}
+
+.about__klous-fait__in{
+    height: 100%;
+    background: rgb(7, 19, 182);  
+    width: 90%;  
+}
+
+.about__piki__out{
+    height: 18px;
+    background: rgb(0, 196, 240);
+    width: 356px;
+}
+
+.about__piki__in{
+    height: 100%;
+    background: rgb(7, 19, 182);    
+    width: 60%  ;
+}
+
+.about__img{
+    align-items: center;
+}
+
+.vidio{
+    background: rgb(44, 44, 44);
+}
+
+.container__vidio{
+    padding: 169px 0 94px;
+}
+
+.vidio__title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 51px;
+}
+
+.vidio__vidio{
+    width: 100%;
+    height: 659px;
+    border: 50.50px solid border-radius: 29px;
+
+    box-shadow: 0px 4px 15px 0px rgba(27, 27, 27, 0.28);
+    /* Gray2 */
+    background: linear-gradient(135.29deg, rgb(65, 65, 65) 0%,rgb(45, 45, 45) 100.297%);
+    border-radius: 29px;
+    box-sizink: border-box; 
+}
+
+.gallery{
+    background: rgb(62, 62, 62);
+    padding: 70px 0 70px;
+}
+
+.gallery__title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 70px;
+}
+
+.gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+gallery__item{
+    width: 478px;
+    height: 316px;
+}
+
+.gallery__img{
+width: 478px;
+height: 316px;
+}
+
+.footer{
+   background: rgb(44, 44, 44)
+}
+
+.container__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 52px;
+}
+
+.footer__title{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 18px;
+}
+
+.footer__text{
+    color: rgb(255, 255, 255);
+font-family: Nico Moji;
+font-size: 16px;
+font-weight: 400;
+line-height: 164.06%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.footer__list{
+    display: flex;
+    list-style: none;
+}
+
+.footer__item{
+    margin-right: 20px;
+}
+
+.footer__content{
+    max-width: 73px 550px;
+}
